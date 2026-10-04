@@ -1,0 +1,27 @@
+// HackerRank Problem: Lists
+// Link: https://www.hackerrank.com/challenges/python-lists/problem
+// Difficulty: Easy
+// Language: pypy3
+
+N = int(input())
+result = []
+for i in range(N):
+    command, *value = input().split()
+    value = list(map(int,value))
+    if command == 'insert':
+        result.insert(value[0], value[1])
+    elif command == 'print':
+        print(result)   
+    elif command == 'append':
+        result.append(value[0])
+    elif command == 'sort':
+        result.sort()
+    elif command == 'pop':
+        result.pop()
+    elif command == 'reverse':
+        result.reverse()     
+    elif command == 'remove':
+        result.remove(value[0])      
+                 
+    
+    
