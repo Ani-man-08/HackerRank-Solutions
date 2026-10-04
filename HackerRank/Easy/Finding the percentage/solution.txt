@@ -1,0 +1,23 @@
+// HackerRank Problem: Finding the percentage
+// Link: https://www.hackerrank.com/challenges/finding-the-percentage/problem
+// Difficulty: Easy
+// Language: pypy3
+
+n = int(input())
+student_marks = {}
+for i in range(n):
+    name, *scores = input().split()
+    scores = list(map(float, scores))
+    student_marks[name] = scores
+query_name = input()
+
+scores = student_marks[query_name]
+
+total = 0
+count = 0
+for i in scores:
+    total = total + i
+    count = count + 1
+result = total/count
+
+print(f"{result:.2f}")
