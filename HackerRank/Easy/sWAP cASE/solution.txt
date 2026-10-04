@@ -1,0 +1,20 @@
+// HackerRank Problem: sWAP cASE
+// Link: https://www.hackerrank.com/challenges/swap-case/problem
+// Difficulty: Easy
+// Language: pypy3
+
+def swap_case(s):
+    ani = list(s)
+    result = ""
+
+    for i in ani:
+        if i.islower():
+            result += i.upper()
+        elif i.isupper():
+            result += i.lower()
+        else:
+            result += i
+
+    return result
+    
+
