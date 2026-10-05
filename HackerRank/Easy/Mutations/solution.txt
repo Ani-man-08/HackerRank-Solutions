@@ -1,0 +1,11 @@
+// HackerRank Problem: Mutations
+// Link: https://www.hackerrank.com/challenges/python-mutations/problem
+// Difficulty: Easy
+// Language: pypy3
+
+def mutate_string(string, position, character):
+    l = list(string)
+    l[position] = character
+    s_new = ''.join(l)
+    return s_new
+
