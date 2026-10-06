@@ -1,0 +1,11 @@
+// HackerRank Problem: Text Wrap
+// Link: https://www.hackerrank.com/challenges/text-wrap/problem
+// Difficulty: Easy
+// Language: pypy3
+
+
+
+def wrap(string, max_width):
+    result = textwrap.fill(string, max_width)
+    return result
+
