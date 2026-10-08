@@ -1,0 +1,15 @@
+{
+  "title": "Introduction to Sets",
+  "title_slug": "py-introduction-to-sets",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/py-introduction-to-sets/problem",
+  "tags": [],
+  "description": "A *set* is an unordered collection of elements without duplicate entries.\n**\nWhen printed, iterated or converted into a sequence, its elements will appear in an arbitrary order.\n\nExample**\n\n```\n>>> print set()\nset([])\n\n>>> print set('HackerRank')\nset(['a', 'c', 'e', 'H', 'k', 'n', 'r', 'R'])\n\n>>> print set([1,2,1,2,3,4,5,6,0,9,12,22,3])\nset([0, 1, 2, 3, 4, 5, 6, 9, 12, 22])\n\n>>> print set((1,2,3,4,5,5))\nset([1, 2, 3, 4, 5])\n\n>>> print set(set(['H','a','c','k','e','r','r','a','n','k']))\nset(['a', 'c', 'r', 'e', 'H', 'k', 'n'])\n\n>>> print set({'Hacker' : 'DOSHI', 'Rank' : 616 })\nset(['Hacker', 'Rank'])\n\n>>> print set(enumerate(['H','a','c','k','e','r','r','a','n','k']))\nset([(6, 'r'), (7, 'a'), (3, 'k'), (4, 'e'), (5, 'r'), (9, 'k'), (2, 'c'), (0, 'H'), (1, 'a'), (8, 'n')])\n\n```\n\nBasically, sets are used for membership testing and eliminating duplicate entries.\n**\n\nTask**\n\nNow, let's use our knowledge of sets and help Mickey.\n\nMs. Gabriel Williams is a botany professor at District College. One day, she asked her student Mickey to compute the average of all the plants with distinct heights in her greenhouse.\n\nFormula used:\n\n**Function Description**\n\nComplete the *average* function in the editor below.\n\n*average* has the following parameters:\n\n* *int arr:* an array of integers\n\n**Returns**\n\n* *float:* the resulting float value rounded to 3 places after the decimal\n\n**Input Format**\n\nThe first line contains the integer, , the size of .**\nThe second line contains the  space-separated integers, .\n\nConstraints**\n\n**Sample Input**\n\n```\nSTDIN                                       Function\n-----                                       --------\n10                                          arr[] size N = 10\n161 182 161 154 176 170 167 171 170 174     arr = [161, 181, ..., 174]\n\n```\n\n**Sample Output**\n\n```\n169.375\n\n```\n\n**Explanation**\n\nHere, *set* is the set containing the distinct heights. Using the *sum()* and *len()* functions, we can compute the average.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-08T17:57:46.931Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-introduction-to-sets"
+}
