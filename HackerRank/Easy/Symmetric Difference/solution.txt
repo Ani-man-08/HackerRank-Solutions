@@ -1,0 +1,16 @@
+// HackerRank Problem: Symmetric Difference
+// Link: https://www.hackerrank.com/challenges/symmetric-difference/problem
+// Difficulty: Easy
+// Language: pypy3
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+A = set(map(int, input().split()))
+
+m = int(input())
+B = set(map(int, input().split()))
+
+result = A.symmetric_difference(B)
+
+for i in sorted(result):
+    print(i)
