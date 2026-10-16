@@ -1,0 +1,15 @@
+{
+  "title": "Set .add() ",
+  "title_slug": "py-set-add",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/py-set-add/problem",
+  "tags": [],
+  "description": "If we want to add a single element to an existing set, we can use the *.add()* operation. **\nIt adds the element to the set and returns '`None`**'.\n\n**Example**\n\n```\n>>> s = set('HackerRank')\n>>> s.add('H')\n>>> print s\nset(['a', 'c', 'e', 'H', 'k', 'n', 'r', 'R'])\n>>> print s.add('HackerRank')\nNone\n>>> print s\nset(['a', 'c', 'e', 'HackerRank', 'H', 'k', 'n', 'r', 'R'])\n\n```\n\n**\nTask**\n\nApply your knowledge of the *.add()* operation to help your friend Rupal.**\n\nRupal has a huge collection of country stamps. She decided to count the total number of distinct country stamps in her collection. She asked for your help. You pick the stamps one by one from a stack of  country stamps.\n\nFind the total number of distinct country stamps.\n\nInput Format**\n\nThe first line contains an integer , the total number of country stamps.**\nThe next  lines contains the name of the country where the stamp is from.\n\nConstraints**\n\n**Output Format**\n\nOutput the total number of distinct country stamps on a single line.\n\n**Sample Input**\n\n```\n7\nUK\nChina\nUSA\nFrance\nNew Zealand\nUK\nFrance\n\n```\n\n**Sample Output**\n\n```\n5\n\n```\n\n**Explanation**\n\nUK and France repeat twice. Hence, the total number of distinct country stamps is  (five).",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-16T04:57:01.477Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-set-add"
+}
