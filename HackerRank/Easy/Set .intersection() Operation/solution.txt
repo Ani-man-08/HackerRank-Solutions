@@ -1,0 +1,14 @@
+// HackerRank Problem: Set .intersection() Operation
+// Link: https://www.hackerrank.com/challenges/py-set-intersection-operation/problem
+// Difficulty: Easy
+// Language: pypy3
+
+n = int(input())
+b = set(map(int,input().split()))
+
+m = int(input())
+a = set(map(int,input().split()))
+    
+ani = a.intersection(b)
+
+print(len(ani))    
