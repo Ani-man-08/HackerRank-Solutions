@@ -1,0 +1,15 @@
+{
+  "title": "Set Mutations",
+  "title_slug": "py-set-mutations",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/py-set-mutations/problem",
+  "tags": [],
+  "description": "We have seen the applications of *union, intersection, difference* and *symmetric difference* operations, but these operations do not make any changes or mutations to the set.\n\n**We can use the following operations to create mutations to a set:**\n\n**.update()** or **`|=`** **\nUpdate the set by adding elements from an iterable/another set.\n\n```\n>>> H = set(\"Hacker\")\n>>> R = set(\"Rank\")\n>>> H.update(R)\n>>> print H\nset(['a', 'c', 'e', 'H', 'k', 'n', 'r', 'R'])\n\n```\n\n.intersection_update()** or **`&=`****\nUpdate the set by keeping only the elements found in it and an iterable/another set.\n\n```\n>>> H = set(\"Hacker\")\n>>> R = set(\"Rank\")\n>>> H.intersection_update(R)\n>>> print H\nset(['a', 'k'])\n\n```\n\n.difference_update()** or **`-=`****\nUpdate the set by removing elements found in an iterable/another set.\n\n```\n>>> H = set(\"Hacker\")\n>>> R = set(\"Rank\")\n>>> H.difference_update(R)\n>>> print H\nset(['c', 'e', 'H', 'r'])\n\n```\n\n.symmetric_difference_update()** or **`^=`****\nUpdate the set by only keeping the elements found in either set, but not in both.\n\n```\n>>> H = set(\"Hacker\")\n>>> R = set(\"Rank\")\n>>> H.symmetric_difference_update(R)\n>>> print H\nset(['c', 'e', 'H', 'n', 'r', 'R'])\n\n```\n\nTASK****\nYou are given a set  and  number of other sets. These  number of sets have to perform some specific mutation operations on set .\n\nYour task is to execute those operations and print the sum of elements from set .\n\nInput Format**\n\nThe first line contains the number of elements in set .**\nThe second line contains the space separated list of elements in set .\n\nThe third line contains integer , the number of other sets.\n\nThe next  lines are divided into  parts containing two lines each.\n\nThe first line of each part contains the space separated entries of the *operation name* and the *length of the other set*.\n\nThe second line of each part contains space separated list of elements in the other set.\n\n *len(set(A**))*  **\n *len(otherSets)*\n\nOutput Format**\n\nOutput the sum of elements in set .\n\n**Sample Input**\n\n```\n 16\n 1 2 3 4 5 6 7 8 9 10 11 12 13 14 24 52\n 4\n intersection_update 10\n 2 3 5 6 8 9 1 4 7 11\n update 2\n 55 66\n symmetric_difference_update 5\n 22 7 35 62 58\n difference_update 7\n 11 22 35 55 58 62 66\n\n```\n\n**Sample Output**\n\n```\n38\n\n```\n\n**Explanation**\n\nAfter the first operation, (*intersection_update operation*), we get:\n\nset\n\nAfter the second operation, (*update operation*), we get:\n\nset\n\nAfter the third operation, (*symmetric_difference_update operation*), we get:\n\nset\n\nAfter the fourth operation, ( *difference_update operation*), we get:\n\nset\n\nThe sum of elements in set  after these operations is .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-16T07:17:24.240Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-set-mutations"
+}
