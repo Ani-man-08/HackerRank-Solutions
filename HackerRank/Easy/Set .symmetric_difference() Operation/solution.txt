@@ -1,0 +1,14 @@
+// HackerRank Problem: Set .symmetric_difference() Operation
+// Link: https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem
+// Difficulty: Easy
+// Language: pypy3
+
+n = int(input())
+m = set(map(int, input().split()))
+
+a = int(input())
+b = set(map(int, input().split()))
+
+ani = m.symmetric_difference(b)
+
+print(len(ani))
