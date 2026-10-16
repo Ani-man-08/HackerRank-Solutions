@@ -1,0 +1,15 @@
+{
+  "title": "Set .intersection() Operation",
+  "title_slug": "py-set-intersection-operation",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/py-set-intersection-operation/problem",
+  "tags": [],
+  "description": "*\n**.intersection()****\n\nThe .intersection()* operator returns the intersection of a set and the set of elements in an iterable.\n\nSometimes, the *&* operator is used in place of the *.intersection()* operator, but it only operates on the set of elements in *set*.\n\nThe set is immutable to the *.intersection()* operation (or *&* operation).\n\n```\n>>> s = set(\"Hacker\")\n>>> print s.intersection(\"Rank\")\nset(['a', 'k'])\n\n>>> print s.intersection(set(['R', 'a', 'n', 'k']))\nset(['a', 'k'])\n\n>>> print s.intersection(['R', 'a', 'n', 'k'])\nset(['a', 'k'])\n\n>>> print s.intersection(enumerate(['R', 'a', 'n', 'k']))\nset([])\n\n>>> print s.intersection({\"Rank\":1})\nset([])\n\n>>> s & set(\"Rank\")\nset(['a', 'k'])\n\n```\n\nTask****\n\nThe students of District College have subscriptions to *English* and *French* newspapers. Some students have subscribed only to *English*, some have subscribed only to *French*, and some have subscribed to both newspapers.\n\nYou are given two sets of student roll numbers. One set has subscribed to the *English* newspaper, one set has subscribed to the *French* newspaper. Your task is to find the total number of students who have subscribed to *both* newspapers.\n\nInput Format**\n\nThe first line contains , the number of students who have subscribed to the *English* newspaper. **\nThe second line contains  space separated roll numbers of those students.\n\nThe third line contains , the number of students who have subscribed to the *French* newspaper.\n\nThe fourth line contains  space separated roll numbers of those students.\n\nConstraints**\n\n**Output Format**\n\nOutput the total number of students who have subscriptions to **both**  *English* and *French* newspapers.\n\n**Sample Input**\n\n```\n9\n1 2 3 4 5 6 7 8 9\n9\n10 1 2 3 11 21 55 6 8\n\n```\n\n**Sample Output**\n\n```\n5\n\n```\n\n**Explanation**\n\nThe roll numbers of students who have *both* subscriptions:\n\n and .\n\nHence, the total is  students.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-16T06:53:16.221Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-set-intersection-operation"
+}
