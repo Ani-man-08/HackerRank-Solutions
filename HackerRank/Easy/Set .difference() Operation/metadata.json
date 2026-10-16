@@ -1,0 +1,15 @@
+{
+  "title": "Set .difference() Operation",
+  "title_slug": "py-set-difference-operation",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/py-set-difference-operation/problem",
+  "tags": [],
+  "description": "*\n**.difference()****\n\nThe tool .difference()* returns a set with all the elements from the set that are not in an iterable.\n\nSometimes the `-` operator is used in place of the *.difference()* tool, but it only operates on the set of elements in *set*.\n\nSet is immutable to the *.difference()* operation (or the `-` operation).\n\n```\n>>> s = set(\"Hacker\")\n>>> print s.difference(\"Rank\")\nset(['c', 'r', 'e', 'H'])\n\n>>> print s.difference(set(['R', 'a', 'n', 'k']))\nset(['c', 'r', 'e', 'H'])\n\n>>> print s.difference(['R', 'a', 'n', 'k'])\nset(['c', 'r', 'e', 'H'])\n\n>>> print s.difference(enumerate(['R', 'a', 'n', 'k']))\nset(['a', 'c', 'r', 'e', 'H', 'k'])\n\n>>> print s.difference({\"Rank\":1})\nset(['a', 'c', 'e', 'H', 'k', 'r'])\n\n>>> s - set(\"Rank\")\nset(['H', 'c', 'r', 'e'])\n\n```\n\nTask****\n\nStudents of District College have a subscription to *English* and *French* newspapers. Some students have subscribed to only the *English* newspaper, some have subscribed to only the *French* newspaper, and some have subscribed to both newspapers.\n\nYou are given two sets of student roll numbers. One set has subscribed to the *English* newspaper, and one set has subscribed to the *French* newspaper. Your task is to find the total number of students who have subscribed to *only English* newspapers.\n\nInput Format**\n\nThe first line contains the number of students who have subscribed to the *English* newspaper. **\nThe second line contains the space separated list of student roll numbers who have subscribed to the *English* newspaper.\n\nThe third line contains the number of students who have subscribed to the *French* newspaper.\n\nThe fourth line contains the space separated list of student roll numbers who have subscribed to the *French* newspaper.\n\nConstraints**\n\n**Output Format**\n\nOutput the total number of students who are subscribed to the *English* newspaper *only*.\n\n**Sample Input**\n\n```\n9\n1 2 3 4 5 6 7 8 9\n9\n10 1 2 3 11 21 55 6 8\n\n```\n\n**Sample Output**\n\n```\n4\n\n```\n\n**Explanation**\n\nThe roll numbers of students who *only* have *English* newspaper subscriptions are:\n\n and .\n\nHence, the total is  students.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-16T06:55:56.630Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-set-difference-operation"
+}
